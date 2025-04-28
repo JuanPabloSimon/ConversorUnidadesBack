@@ -4,7 +4,6 @@ import com.project.conversorUnidades.model.ConversorRequest;
 import com.project.conversorUnidades.service.ConversorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-@CrossOrigin(origins= "http://localhost:5173")
 @RestController
 @RequestMapping("/api/conversor")
 public class ConversorControler {
